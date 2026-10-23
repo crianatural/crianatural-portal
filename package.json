@@ -1,0 +1,21 @@
+{
+  "name": "crianatural-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:pages": "vite build --base=./ --outDir docs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/model.test.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}
